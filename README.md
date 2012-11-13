@@ -1,3 +1,4 @@
+
 # shortr
 
 ## Thanks
@@ -18,17 +19,21 @@ The intended use is that incrementing, consecutive integers will be used as keys
 
 ## Usage
 
-Check out the code
+Install the module:
 
-    $ git https://github.com/samof76/shortr.git
+```bash
+$ npm install shortr
+```
 
-Move the urlencoder.js to a directory of your choice say 'mychoice', get into that directory and do the following
+Try it out on the command line:
 
-    $ node
-    > var urlencoder = require('./urlencoder.js');
-    > var e = urlencoder.encode_url(1);
-    > console.log(e)
-    nMvz6
+```bash
+$ node
+$ var shortr = require('shortr');
+$ var encoded = shortr.encode_url(1);
+$ console.log(encoded)
+$ > nMvz6
+```
 
 ## Known Issues
 
