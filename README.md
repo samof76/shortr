@@ -29,10 +29,10 @@ Try it out on the command line:
 
 ```bash
 $ node
-$ var shortr = require('shortr');
-$ var encoded = shortr.encode_url(1);
-$ console.log(encoded)
-$ > nMvz6
+> var shortr = require('shortr');
+> var encoded = shortr.encode_url(1);
+> console.log(encoded)
+> mnMvz6
 ```
 
 ## Known Issues
