@@ -1,0 +1,30 @@
+{
+  "author":"samof76 <https://github.com/samof76>",
+  "name":"shortr",
+  "description":"To create short ids like bitly for your ids, that you could use for any shortner or dream up",
+  "version":"0.0.1",
+  "repository":{
+    "type":"git",
+    "url":"git://github.com/samof76/shortr.git"
+  },
+  "homepage": "http://github.com/samof76/shortr.git",
+  "contributors": [
+    { "name": "Edward Hotchkiss","email": "edwardhotchkiss@me.com" }
+  ],
+  "keywords": ["short","shorten","url","urlencoder"]
+  "engines":{
+    "node":">= 0.8.0"
+  },
+  "main":"./lib/shortr",
+  "dependencies":{
+  },
+  "devDependencies":{
+  },
+  "bugs": {
+    "url": "https://github.com/samof76/shortr/issues"
+  },
+  "licenses":[{
+    "type":"MIT",
+    "url":"http://github.com/samof76/shortr/LICENSE"
+  }]
+}
